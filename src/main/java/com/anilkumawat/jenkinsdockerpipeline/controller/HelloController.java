@@ -14,5 +14,9 @@ public class HelloController {
 	public String test() {
 		return "docker-java-app is up and running: " + new Date();
 	}
+	@RequestMapping(path = "/new-test")
+	public String newTest() {
+		return "new docker-java-app is up and running: " + new Date();
+	}
 
 }

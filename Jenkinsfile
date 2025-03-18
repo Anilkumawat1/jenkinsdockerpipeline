@@ -51,7 +51,6 @@ pipeline {
         }
         failure {
             echo "Build failed, check logs for details."
-            //mail to: 'admin@example.com', subject: 'Build Failed', body: 'Check Jenkins logs for details.'
         }
     }
 }
